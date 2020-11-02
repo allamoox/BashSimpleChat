@@ -1,0 +1,12 @@
+Please press  "ctrl" and  "b" simultaneously then press the up arrow, to get in to the above pane.
+Please type the following command nc 127.0.0.1 -l 1337, once you write this command you will be connected and able to chat. 
+
+
+Press "ctrl" and "b" simultaneously then press the down arrow, you will be moved back to the lower pane.
+
+Type your message then press enter, it will apprear in the upper pane.
+
+
+
+To move back to the lower pane, you need to press "ctrl" and "b"x simultaneously then press the down arrow.
+
