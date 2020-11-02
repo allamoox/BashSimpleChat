@@ -18,7 +18,7 @@
 
 printf "\033c"
 cat < ./banner
-PS3='Hello '$USER' Please enter your choice between 1 and 4 :- '
+PS3='Hello '$USER' Please chose one of the above options :- '
 choice=("Press 1 for nc connection" "Press 2 for /dev/tcp connection" "Press 3 for xxxxx" "Press 4 to Exit")
 select choice in "${choice[@]}"
 do

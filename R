@@ -1,12 +1,15 @@
-Please press  "ctrl" and  "b" simultaneously then press the up arrow, to get in to the above pane.
-Please type the following command nc 127.0.0.1 -l 1337, once you write this command you will be connected and able to chat. 
+This terminal is divided into two panes, the lower pane is acting as server and the upper pane is acting as client.
+
+To move between panes please press "ctrl" and  "b" simultaneously then press the up arrow/up to move between panes.
+
+You will be in server by defauly,  to get in to client pane, press "ctrl" and "b" simultaneously then up arrow.
+
+To get back into server pane, press "ctrl" and "b" simultaneously then down arrow.
+----------------------------------------------------------------------------------------------------------------
 
 
-Press "ctrl" and "b" simultaneously then press the down arrow, you will be moved back to the lower pane.
+The script start in server pane by default, move to client pane and type nc 127.0.0.1 1337 then press enter to connect into server.
 
-Type your message then press enter, it will apprear in the upper pane.
+Start typping your message then hit enter, your message will appear in the server pane.
 
-
-
-To move back to the lower pane, you need to press "ctrl" and "b"x simultaneously then press the down arrow.
-
+press "ctrl" and "b" simultaneously then down arrow, will move you to server pane. type your message and hit enter and your message will be in client pane.
