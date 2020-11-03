@@ -58,7 +58,7 @@ do
     case "$choice" in
         "Press 1 for nc connection")
 	    echo Listening for incomming connections on $port 
-            tmux new \;  split-window\; send-keys C-L C-M "cat R" c-m "nc -l -p 1337" C-M
+            tmux new \; split-window \; send-keys -t top C-L C-M "cat R" c-m "nc -l -p 1337" C-M \; send-keys -t bottom "nc localhost 1337" C-m ;
             PS1=$user:-
 	    ;;
         "Press 2 for /dev/tcp connection")
